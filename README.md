@@ -10,6 +10,15 @@
 - 채점시 Pod의 네트워크 격리에 대해서는 K8s의 Service에 할당 되는 DNS를 사용합니다. Pod를 바라보는 Service가 생성되어 있어야 하고 해당 Service를 바라보도록 질의도 잘 되어야 합니다.
 - RDS는 타입 제한만 있으며 여러대 생성 가능합니다. RDS는 비용 계산에 포함되지 않습니다.
 - 14:30까지 별도 DNS 제출이 없으면 http://www.{등번호}.ws2025.click 으로 호출을 시작합니다.
+- SQL
+  - 타입 2개만 존재 및 phone 57,000 ~ 60,055
+    ```
+    select type, count(*) as count from device group by type;
+    ```
+  - before 데이터, 1900 ~ 2005
+    ```
+    select count(*) from device where type='hotfix' and id like 'before%';
+    ```
 ### 101
 - 1차 프로비저닝 : 0점
 - 2차 로드
