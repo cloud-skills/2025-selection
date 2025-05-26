@@ -29,6 +29,7 @@
   - blue post : 94.03%
   - blue get : 88.07%
   - green 1st : 85.44%
+  - blue chaos : 80.55%
  
 ### 103
 - 1차 프로비저닝 : 0점
@@ -39,6 +40,7 @@
   - blue post: 100%
   - blue get: 100%
   - green 1st: 100%
+  - blue chaos: 83.94%
 
 ### 104
 - 1차 프로비저닝 : 3점
@@ -49,3 +51,4 @@
   - blue post : 97.87%
   - blue get : 97.86%
   - green 1st: 72.84%
+  - blue chaos: 97.37%
