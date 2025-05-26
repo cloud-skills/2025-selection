@@ -1,6 +1,9 @@
 # 2025-selection
 # Day1
-과제에 사용하는 파일은 blue, red, green, day1_scheme.sql, blue-hotifx 4개입니다. blue-hotfix는 대회 시작 일정 시간 이후에 전달됩니다.
+아래는 공지사항 및 처리량 근사치이며 최종값이 아니기 때문에 오류가 있는 경우 변경 될 수 있습니다.
+- 과제에 사용하는 파일은 blue, red, green, day1_scheme.sql, blue-hotifx 4개입니다. blue-hotfix는 대회 시작 일정 시간 이후에 전달됩니다.
+- 경기 중 채점 요소는 비용, 로드테스트, 카오스이며, 경기 후 해당 작업 및 트레픽들은 발생하지 않습니다.
+- EC2는 온디맨드 타입만 사용합니다.
 
 ### 101
 ### 102
