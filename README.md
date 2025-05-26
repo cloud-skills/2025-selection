@@ -19,6 +19,7 @@
   - blue post : 0%
   - blue get : 0%
   - green 1st: 0%
+  - blue chaos: 0%
  
 ### 102
 - 1차 프로비저닝 : 3점
