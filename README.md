@@ -19,46 +19,7 @@
     ```
     select count(*) from device where type='hotfix' and id like 'before%';
     ```
-### 101
-- 1차 프로비저닝 : 0점
-- 2차 로드
-  - blue: 0%
-  - red: 0%
-- 3차 로드
-  - blue post : 0%
-  - blue get : 0%
-  - green 1st: 0%
-  - blue chaos: 0%
- 
-### 102
-- 1차 프로비저닝 : 3점
-- 2차 로드
-  - blue: 91.2%
-  - red: 92.05%
-- 3차 로드
-  - blue post : 94.03%
-  - blue get : 88.07%
-  - green 1st : 85.44%
-  - blue chaos : 80.55%
- 
-### 103
-- 1차 프로비저닝 : 0점
-- 2차 로드
-  - blue: 0%
-  - red: 0%
-- 3차 로드
-  - blue post: 100%
-  - blue get: 100%
-  - green 1st: 100%
-  - blue chaos: 83.94%
 
-### 104
-- 1차 프로비저닝 : 3점
-- 2차 로드
-  - blue: 99.67%
-  - red: 88.6%%
-- 3차 로드
-  - blue post : 97.87%
-  - blue get : 97.86%
-  - green 1st: 72.84%
-  - blue chaos: 97.37%
+  # Day2
+  - DO NOT manually create Sagemaker AI Model, Endpoints and EndpointConfig. It should be created by ACK.
+  - You can use **ml.m6i.xlarge** instead of ml.m5.large, but Elastic inference is not allowed. Only one Notebook instance is allowed. You have to set the Notebook name as {your number}-day2.
