@@ -29,4 +29,6 @@
     root@localhost# /root/inference.sh 1-class.png
     Airplane
     ```
+  - 10 files were randomly selected from the following link.
+    https://www.kaggle.com/datasets/swaroopkml/cifar10-pngs-in-folders
   - During the marking, entire PyTorch code in the Notebook is re-executed. However, it doesn't trigger to create Sagemaker AI Model, Endpoints and EndpointConfig at the marking time. It means you have to deploy those Sagemaker resources before the end of the competition.
