@@ -23,6 +23,7 @@
   # Day2
   - DO NOT manually create Sagemaker AI Model, Endpoints and EndpointConfig. It should be created by ACK.
   - You can use **ml.m6i.xlarge** instead of ml.m5.large, but Elastic inference is not allowed. Only one Notebook instance is allowed. You have to set both the Notebook instance and the Jypyter file name to {your number}-day2.
+  - You can choose an instance type of Sagemaker AI Endpoints. There is no stress testing, choose a proper type.
   - You need to implement a bash script and place to `/root/inference.sh` in the bastion host. The script takes the test `.png` file path as a parameter. You will probably need to encode the image file into base64 type before invoking API. It doesn't matter result formatting type, but the class name must be identifiable. Examiners will give 10 test files during the marking.
     ```
     root@localhost# /root/inference.sh 1-class.png
