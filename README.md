@@ -45,6 +45,8 @@
 - If it is delayed than 140 seconds, it may give partial points. (4 Database problem)
   - 0 ~ 140 : Full mark
   - 140.x ~ : Partial mark
+- You cannot directly trigger Run Command, but the AWS service adopted as the solution can be used internally use Run Command. (5 System update problem)
+- The time limit for version check is 300 seconds after triggering PHP version upgrade. (5 System update problem)
 - The command below is used for marking. (6 EC2 problem)
   ```
   $ aws sts xxxxxxxx
