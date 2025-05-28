@@ -45,6 +45,12 @@
 - If it is delayed than 140 seconds, it may give partial points. (4 Database problem)
   - 0 ~ 140 : Full mark
   - 140.x ~ : Partial mark
+- The command below is used for marking. (6 EC2 problem)
+  ```
+  $ aws sts xxxxxxxx
+  $ curl http://169.254.169.254
+  ```
+- To retrieve EC2 medata, you have to prepare commands inclduing curl and authentication step. It is used at the marking time. (6 EC2 problem)
 - Unlike the Day1 Test Project, best practices will not be graded. However, in case of any disputes, the AWS Well-Architected Framework can be used as a reference.
 - For the all questions, it's not allowed that:
   - Serverless type EC2 instance
