@@ -20,7 +20,7 @@
     select count(*) from device where type='hotfix' and id like 'before%';
     ```
 
-  # Day2
+# Day2
   - DO NOT manually create Sagemaker AI Model, Endpoints and EndpointConfig. It should be created by ACK.
   - You can use **ml.m6i.xlarge** instead of ml.m5.large, but Elastic inference is not allowed. Only one Notebook instance is allowed. You have to set both the Notebook instance and the Jypyter file name to {your number}-day2.
   - You can choose an instance type of Sagemaker AI Endpoints. There is no stress testing, choose a proper type.
@@ -37,3 +37,17 @@
     mkdir -p ./images/
     aws s3 cp --recursive s3://skillskorea-public-2025/cifar-10/ ./images/
     ```
+
+# Day3
+- You can decide API path and parameters. (3 Serverless problem)
+- All MySQL type RDS/Aurora are allowed. (4 Database problem)
+- The RDS instance type is r6g.large. (4 Database problem)
+- If it is delayed than 140 seconds, it may give partial points. (4 Database problem)
+  - 0 ~ 140 : Full mark
+  - 140.x ~ : Partial mark
+- Unlike the Day1 Test Project, best practices will not be graded. However, in case of any disputes, the AWS Well-Architected Framework can be used as a reference.
+- For the all questions, it's not allowed that:
+  - Serverless type EC2 instance
+  - Serverless type Aurora/RDS instance
+  - Serverless type DynamoDB table
+  - Spot type EC2 instance
