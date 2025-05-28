@@ -53,6 +53,7 @@
 - To retrieve EC2 medata, you have to prepare commands inclduing curl and authentication step. It is used at the marking time. (6 EC2 problem)
 - Enabling SSH of the day3 container is not mandatory, but you need shell access to the container. (6 EC2 problem)
 - Unlike the Day1 Test Project, best practices will not be graded. However, in case of any disputes, the AWS Well-Architected Framework can be used as a reference.
+- DO NOT create unnecessary resources. For example, there must be only one RDS/Aurora cluster.
 - For the all questions, it's not allowed that:
   - Serverless type EC2 instance
   - Serverless type Aurora/RDS instance
