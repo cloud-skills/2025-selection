@@ -14,7 +14,7 @@
 - DocumentDB instance type doesn't impact on your score.
 - Dashboard : http://dashboard.t1kc2502korea.com
 - The test script runs during a break time including lunch.
-- 
+- Chaos attacks can be injected to your system anytime.
 
 ### Day3 - Small Challenge
 - Small Challenge test project is used instead of System Operation.
