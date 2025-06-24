@@ -11,6 +11,7 @@
 - System Operation test project is used instead of Small Challenge.
 - The Load-test will begin 1 hour after the start of the competition.
 - You must not delete the created IAM users before the start of the competition.
+- DocumentDB instance type doesn't impact on your score.
 
 ### Day3 - Small Challenge
 - Small Challenge test project is used instead of System Operation.
