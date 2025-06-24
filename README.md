@@ -12,6 +12,7 @@
 - The Load-test will begin 1 hour after the start of the competition.
 - You must not delete the created IAM users before the start of the competition.
 - DocumentDB instance type doesn't impact on your score.
+- Dashboard : http://dashboard.t1kc2502korea.com
 
 ### Day3 - Small Challenge
 - Small Challenge test project is used instead of System Operation.
