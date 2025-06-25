@@ -21,3 +21,5 @@
 - You will be given 2.5 hours for the test project.
 - For the question3 - Secure the objects, you have to set the description of the CloudFront distribution as "dragons-very-security-website"
 - For the question4 - Shout the password, you have to set the description of the CloudFront distribution as "unicorn-company"
+- For the MLOps - Create only one Notebook file and instance.
+- For the MLOps - If any part of your code loads data from S3, the Notebook file must also include logic that retrieves the same data through the Feature Store.
