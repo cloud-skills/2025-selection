@@ -19,3 +19,5 @@
 ### Day3 - Small Challenge
 - Small Challenge test project is used instead of System Operation.
 - You will be given 2.5 hours for the test project.
+- For the question3 - Secure the objects, you have to set the description of the CloudFront distribution as "dragons-very-security-website"
+- For the question4 - Shout the password, you have to set the description of the CloudFront distribution as "unicorn-company"
